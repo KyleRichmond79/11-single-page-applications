@@ -8,7 +8,8 @@ var app = app || {};
   // Also be sure to hide all the main section elements, and reveal the #articles section:
   app.articleView.initArticleView = function() {
     app.Article.fetchAll(app.articleView.initIndexPage);
-    $('.tab-content').hide();
+    console.log('hello world');
+    $('#about').hide();
     $('#articles').show();
   }
 
